@@ -11,6 +11,7 @@
 		715EC7EB2B2CD0060033DC1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EC7EA2B2CD0060033DC1C /* ContentView.swift */; };
 		715EC7ED2B2CD0060033DC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715EC7EC2B2CD0060033DC1C /* Assets.xcassets */; };
 		715EC7F02B2CD0060033DC1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715EC7EF2B2CD0060033DC1C /* Preview Assets.xcassets */; };
+		715EC7F72B2CD00F0033DC1C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EC7F62B2CD00F0033DC1C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		715EC7EA2B2CD0060033DC1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		715EC7EC2B2CD0060033DC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715EC7EF2B2CD0060033DC1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		715EC7F62B2CD00F0033DC1C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				715EC7E82B2CD0060033DC1C /* LearningObservationApp.swift */,
 				715EC7EA2B2CD0060033DC1C /* ContentView.swift */,
+				715EC7F62B2CD00F0033DC1C /* ViewModel.swift */,
 				715EC7EC2B2CD0060033DC1C /* Assets.xcassets */,
 				715EC7EE2B2CD0060033DC1C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715EC7EB2B2CD0060033DC1C /* ContentView.swift in Sources */,
+				715EC7F72B2CD00F0033DC1C /* ViewModel.swift in Sources */,
 				715EC7E92B2CD0060033DC1C /* LearningObservationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

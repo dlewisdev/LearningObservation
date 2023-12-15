@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewModel = ViewModel()
+   
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Text(viewModel.currentWord)
+            
+            Button("Randomize") {
+                viewModel.randomizeWord()
+            }
         }
         .padding()
     }
