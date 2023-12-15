@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var viewModel = ViewModel()
+    @Environment(ViewModel.self) var viewModel
    
     var body: some View {
         VStack(spacing: 20) {

@@ -10,6 +10,7 @@ import SwiftUI
 
 @Observable
 class ViewModel {
+    
     var wordDb = ["Potato", "Cat", "Sunshine", "Raindrop"]
     var currentWord = "Cactus"
     
